@@ -21,11 +21,7 @@
                 <input type="text" autocomplete="off" name="url" class="form-control" id="exampleInputEmail1"
                     aria-describedby="emailHelp">
             </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label link-light">Total Page No.</label>
-                <input type="text" class="form-control" name="pages" id="exampleInputPassword1">
-            </div>
-            <button type="submit" class="btn btn-light">Submit</button>
+            <button type="submit" class="btn btn-light"><a href="{{ url_for('.download_file') }}" style="text-decoration: none;color: black;">Get Data</a></button>
         </form>
     </div>
 </body>
